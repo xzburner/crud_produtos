@@ -1,0 +1,87 @@
+/*CONFIGURAÇÕES INICIAIS*/
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    list-style: none
+}
+
+/*MENU*/
+  
+
+
+/*USADO P/CENTRALIZAR ELEMENTOS*/
+#center {
+    text-align: center;
+}
+
+/*LINHA 1 - COBRE TODA A TELA*/
+#line-one {   
+    width: 100%;    
+    background-color: #fff;
+    padding-top: 90px;
+}
+
+/*FORMULARIOS*/
+#black {
+    color: #000;
+    font-weight: bold
+}
+
+/*MSG DE ALERTA*/
+.alert {    
+    margin: auto;  
+    z-index: 20;   
+    text-align: center   
+        /*    -webkit-box-shadow: 0px 3px 26px 2px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 3px 26px 2px rgba(0,0,0,0.75);
+            box-shadow: 0px 3px 26px 2px rgba(0,0,0,0.75)*/
+}
+.alert-success {
+    color: #fff;
+    background-color: #228B22
+}
+.alert-warning {
+    color: #fff;
+    background-color: #EEAD0E
+}
+.alert-danger {
+    color: #fff;
+    background-color: #FF3030
+}
+
+/*BOTÃO DOS CADASTROS*/
+.btn-default {
+    margin-right: 3px    
+}
+
+#btn-delete {
+    background-color: #fff;
+}
+#btn-delete:hover {
+    background-color: #f5f5f5;
+}
+
+/*SCROLL NAS CELULAS DAS TABELAS*/
+#scroll {
+    max-width: 150px;
+    overflow: auto
+}
+
+/*USADO P/ SUBIR AO TOPO*/
+#up {  
+    position: fixed;
+    bottom: 3%; 
+    right: 3%; 
+    cursor: pointer;        
+
+}
+
+/*BARRA DE PESQUISA NOS CADASTROS*/
+#pesquisa {   
+    max-width: 250px
+}
+
+#pesquisa input[type="text"] {
+    width: 200px
+}
